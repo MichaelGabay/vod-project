@@ -1,0 +1,85 @@
+.vodApp {
+    min-height: 100vh;
+
+}
+
+.carousleDiv {
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+    background-repeat: no-repeat;
+}
+
+.vodApp_nav {
+    position: absolute;
+    z-index: 2;
+    min-height: 75px;
+    width: 100%;
+    padding: 6px;
+}
+
+.logo {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
+    color: red;
+    transition: 800ms;
+    padding-left: 8px;
+}
+
+.logo:hover {
+    cursor: pointer;
+    transform: scale(1.07, 1.07);
+}
+
+.vodApp_inputDiv {
+    border: 2px solid white;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.489);
+}
+
+.vodApp_input {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 4px 0 4px 4px;
+    color: white;
+}
+
+.vodApp_input::placeholder {
+    color: white;
+}
+
+.yearLinks-link {
+    text-decoration: none;
+    color: rgb(142, 141, 141);
+    transition: 800ms;
+}
+
+.yearLinks-link:hover {
+    color: white;
+}
+
+.item_img {
+    height: 340px;
+}
+
+
+.yearLinx_select {
+    font-weight: 800;
+    color: gray;
+
+}
+
+@media screen and (max-width: 600px) {
+    .vodApp_inputDiv {
+        width: 70%;
+    }
+
+    .item_img {
+        height: 220px;
+    }
+
+    .info_stars {
+        justify-content: center;
+    }
+}
